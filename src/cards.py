@@ -100,9 +100,3 @@ def map_front_attrs(
 
     return CARD_ATTRS
 
-
-if __name__ == "__main__":
-    tesseract_path = r"/usr/local/bin/tesseract"
-    img_front = "/Users/dillonbarendt/Downloads/paxful-master/tests/image_processing/card_front/img_1.png"
-    img_back = "/Users/dillonbarendt/Downloads/paxful-master/tests/image_processing/card_back/img_2.png"
-    print(map_front_attrs(img_front,img_back))
