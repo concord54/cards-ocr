@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "image-processing"
+version = "0.1.0"
+description = ""
+authors = ["Dillon Barendt <dillon.barendt@pm.me>"]
+readme = "README.md"
+packages = [{include = "image_processing"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytesseract = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
