@@ -2,7 +2,6 @@
 Object Character Recognition (OCR) modularity for image processing using the Tesseract algorithm.
 
 Author: Dillon Barendt
-Organization: Concord Capital Management, LLC
 Modified: 11/23/2022
 
 TODO: Turn OCR into a python pipeline generator
